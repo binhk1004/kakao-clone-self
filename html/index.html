@@ -1,13 +1,11 @@
-<html lang="kor">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/b9284f69b5.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/b9284f69b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="file:///Users/binhk1004/Documents/GitHub/kakao-clone-self/css/style.css"/>
     <title>메인화면 | 카카오톡</title>
   </head>
   <body>
@@ -28,12 +26,13 @@
       <div class="header__column">
         <h1 class="header__title">친구</h1>
       </div>
-      <div class="header__column">
+      <div class="header__column-icon">
         <i class="fas fa-search"></i>
         <i class="fas fa-user-plus"></i>
         <i class="fas fa-music"></i>
         <i class="fas fa-cog"></i>
       </div>
+    </header>
       <main class="friends">
         <header class="friends__header">
           <div class="friends__friend friends">
@@ -43,13 +42,130 @@
                 class="big-avatar friend__avatar"
               />
             </div>
-            <div class="friedn__content">
+            <div class="friend__content">
               <span class="friend__name">김빈현</span>
-              <span class="frined__status"></span>
+              <span class="friend__status"></span>
             </div>
           </div>
         </header>
+        <div class="friends__birthday">
+          <div class="friend__column">
+            <h5 class="friends__title">생일인 친구</h5>
+          </div>
+          <div class="friend__column">
+            <spam class="unconfirm-number">
+              2 >
+            </spam>
+          </div>
+          <div class="friends__friend friends">
+            <div class="frined__column">
+              <i class="fas fa-birthday-cake"></i>
+              <div class="friend-content">
+                <span class="friend__name">친구의 생일을 확인해보세요!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="friends_Favorites">
+          <div class="frined__column">
+            <h5 class="friends__title">즐겨찾기</h5>
+          </div>
+          <div class="friend__column">
+            <img
+              src="file:///Users/binhk1004/Documents/GitHub/kakao-clone-self/images/image2.jpeg"
+              class="avatar friend__avatar"
+            />
+            <div class="friedn__content">
+              <span class="friend__name">김준빈</span>
+              <span class="friend__status"></span>
+            </div>
+            <div class="friend__column">
+              <div class="friend__now=listening">
+                <span>
+                  Vaughan-Williams:Fantasi..
+                  <i class="fas fa-play"></i>
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <img
+                src="file:///Users/binhk1004/Documents/GitHub/kakao-clone-self/images/image4.jpeg"
+                class="avatar friend__avatar"
+              />
+              <div class="friedn__content">
+                <span class="friend__name">아빠는빠덜</span>
+                <span class="friend__status">기 다 림 ~~ 더 내려놓기</span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <img
+                src="file:///Users/binhk1004/Documents/GitHub/kakao-clone-self/images/image3.jpeg"
+                class="avatar friend__avatar"
+              />
+              <div class="friedn__content">
+                <span class="friend__name">엄마는덜</span>
+                <span class="friend__status"
+                  >"하나님만, 믿고 의지할 유일한 대상이다"</span
+                >
+              </div>
+            </div>
+         </div>
+        </div>
+          <div class="friends__recommend">
+            <div class="friend__column">
+              <h5 class="friends__title">추천친구</h5>
+            </div>
+            <div class="friend__column">
+              <spam class="unconfirm-number">
+                8 >
+              </spam>
+            </div>
+            <div class="friends__friend friends">
+              <div class="frined__column">
+                <img src="file:///Users/binhk1004/Documents/GitHub/kakao-clone-self/images/image5.jpg"
+                class="avatar friend__avatar"/>
+                <div class="friend-content">
+                  <span class="friend__name">새로운 친구를 만나보세요!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="friends__channel">
+            <div class="friend__column">
+              <h5 class="friends__title">채널</h5>
+            </div>
+            <div class="friend__column">
+              <spam class="unconfirm-number">
+                20 >
+              </spam>
+            </div>
+            <div class="friends__friend friends">
+              <div class="frined__column">
+                <img src="file:///Users/binhk1004/Documents/GitHub/kakao-clone-self/images/image6.png" 
+                class="avatar friend__avatar"/>>
+                <div class="friend-content">
+                  <span class="friend__name">채널</span>
+                </div>
+                <div class="friend__column">
+                <div class="friends__friend friends">
+                  <div class="frined__column">
+                    <img src="file:///Users/binhk1004/Documents/GitHub/kakao-clone-self/images/image7.png" 
+                    class="avatar friend__avatar"/>>
+                    <div class="friend-content">
+                      <span class="friend__name">마켓컬리</span>
+                    </div>
+                </div>
+        </div>
       </main>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><i class="fas fa-user"></i></li>
+          <li class="nav__list-item"><i class="far fa-comment"></i></li>
+          <li class="nav__list-item"><i class="fas fa-hashtag"></i></li>
+          <li class="nav__list-item"><i class="far fa-star"></i></li>
+          <li class="nav__list-item"><i class="fas fa-ellipsis-h"></i></li>
+        </ul>
+      </nav>
     </header>
   </body>
 </html>
