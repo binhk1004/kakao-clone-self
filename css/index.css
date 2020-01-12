@@ -8,11 +8,14 @@
 .header {
   display: flex;
   justify-content: space-between;
-  /* 아래 align-items 은 채팅과 같은 줄에 있는 아이콘 중앙정렬임; */
   align-items: center;
   margin-bottom: 30px;
 }
 
 .header .header__column {
-  font-size: 100px;
+  font-size: 20px;
+}
+
+.main .friends {
+  background-color: red;
 }
