@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/b9284f69b5.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>메인화면</title>
   </head>
   <body>
@@ -26,10 +27,18 @@
         <h1 class="top__title">친구</h1>
       </div>
       <div class="top-title__column">
-        <i class="fas fa-search"></i>
-        <i class="fas fa-user-plus"></i>
-        <i class="fas fa-music"></i>
-        <i class="fas fa-cog"></i>
+        <span class="top-title__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="top-title__icon">
+          <i class="fas fa-user-plus"></i>
+        </span>
+        <span class="top-title__icon">
+          <i class="fas fa-music"></i>
+        </span>
+        <span class="top-title__icon">
+          <i class="fas fa-cog"></i>
+        </span>
       </div>
     </header>
     <main class="friends">
@@ -86,7 +95,69 @@
             </div>
           </li>
         </div>
-    
+        <div class="recommend__frineds">
+          <h5>추천친구</h5>
+          <div class="friends__friend friend">
+            <div class="friend__column">
+              <img src="images/recommend.png" class="sub-avatar" />
+            </div>
+            <div class="friend__contents">
+              <span class="friend__name">새로운 친구를 만나보세요!</span>
+            </div>
+            <div class="friend__contents">
+              <span class="friend__status">8 ></span>
+            </div>
+         </div>
+        </div>
+        <div class="channel__frineds">
+          <h5>채널</h5>
+          <div class="friends__friend friend">
+            <div class="friend__column">
+              <img src="images/image6.png" class="sub-avatar" />
+            </div>
+            <div class="friend__contents">
+              <span class="friend__name">채널</span>
+            </div>
+            <div class="friend__contents">
+              <span class="friend__status">20 ></span>
+            </div>
+         </div>
+         <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/image7.png" class="sub-avatar" />
+          </div>
+          <div class="friend__contents">
+            <span class="friend__name">마켓컬리</span>
+          </div>
+          <div class="friend__contents">
+            <span class="friend__status">내일의 장보기, 마켓컬리</span>
+          </div>
+       </div>
+        </div>
     </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="" class="nav__list-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

@@ -1,0 +1,16 @@
+.top-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-title__icon {
+  align-items: center;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.top-title__column {
+  display: flex;
+  align-items: center;
+}
