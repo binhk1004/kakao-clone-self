@@ -1,4 +1,49 @@
-.friend__contents {
-  align-items: center;
+.friend {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__column__best {
+  display: flex;
+  align-items: center;
+}
+
+.main-avatar {
+  width: 80px;
+  border-radius: 30%;
+}
+
+.sub-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+}
+
+.friend__status {
+  display: flex;
+  align-items: center;
+}
+
+.friend__number {
+  background-color: red;
+}
+
+.friend__column__best {
+  padding: 10px 0px;
+}
+
+.friend__contents {
+  margin-left: 20px;
+  align-items: center;
+  /* opacity: 0.6; */
+}
+
+.friend__status {
+  opacity: 0.6;
 }

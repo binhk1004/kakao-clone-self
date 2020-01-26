@@ -1,7 +1,9 @@
 .top-title {
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 25px;
 }
 
 .top-title__icon {

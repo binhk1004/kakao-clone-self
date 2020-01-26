@@ -1,3 +1,16 @@
 @import "status-bar.css";
 @import "top-title.css";
 @import "main-friend.css";
+@import "reset.css";
+@import "index.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+}
