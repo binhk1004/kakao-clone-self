@@ -16,6 +16,7 @@
 
 .main-avatar {
   width: 80px;
+  height: 80px;
   border-radius: 30%;
 }
 
@@ -28,6 +29,7 @@
 .friend__status {
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
 
 .friend__number {
@@ -45,5 +47,20 @@
 }
 
 .friend__status {
+  opacity: 0.6;
+}
+
+.friend__chat {
+  margin-left: 20px;
+}
+
+.friend__bottom-text {
+  display: flex;
+  align-items: center;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+
+.chat__timestamp {
   opacity: 0.6;
 }

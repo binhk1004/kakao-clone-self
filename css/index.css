@@ -32,3 +32,7 @@
   border-bottom: 3px solid #f7f7f7;
   margin: 5px 0px;
 }
+
+.chat__list {
+  padding-top: 20px;
+}

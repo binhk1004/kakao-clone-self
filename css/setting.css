@@ -1,0 +1,30 @@
+.set__contents {
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+}
+
+.set__top {
+  border-bottom: 3px solid #f7f7f7;
+  margin: 5px 0px;
+}
+
+.set__top-menu {
+  font-size: 20px;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.menu-btn {
+  padding-bottom: 40px;
+}
+
+.btn-name {
+  padding-left: 20px;
+}
+
+.set__bottom-menu {
+  font-size: 20px;
+  align-items: center;
+  padding-top: 40px;
+}
