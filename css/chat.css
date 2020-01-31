@@ -41,6 +41,8 @@
 }
 
 .incoming-message {
+  display: flex;
+  align-items: center;
   align-self: flex-start;
 }
 
@@ -71,12 +73,94 @@
 }
 
 .message-author {
-  margin-top: 25px;
+  margin-bottom: 10px;
   display: block;
   font-weight: 600;
   font-size: 12px;
 }
 
-.timestamp {
+.timestamp-incoming1 {
+  position: relative;
+  left: 160px;
+  bottom: 30px;
+  font-size: 13px;
+}
+
+.timestamp-incoming2 {
+  position: relative;
+  left: 240px;
+  bottom: 20px;
+  font-size: 13px;
+}
+
+.timestamp-sent1 {
+  position: relative;
+  right: 55px;
+  bottom: 25px;
+  font-size: 13px;
+}
+
+.timestamp-sent2 {
+  position: relative;
+  right: 55px;
+  bottom: 25px;
+  font-size: 13px;
+}
+
+.timestamp-sent3 {
+  position: relative;
+  right: 55px;
+  bottom: 25px;
+  font-size: 13px;
+}
+
+.timestamp-sent4 {
+  position: relative;
+  right: 55px;
+  bottom: 25px;
+  font-size: 13px;
+}
+
+.incoming-message img {
+  width: 70px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.message-contents {
+  position: relative;
+  top: 20px;
+}
+
+.chat__write-box {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.chat__write {
+  background-color: white;
+}
+
+/* .write-box-icon-left {
+  position: relative;
+  bottom: 100px
+  left: 10px;
+} */
+
+.write-box-icon-left {
+  position: relative;
+  bottom: 20px;
+  font-size: 20px;
+}
+
+.write-box-icon-right {
+  position: relative;
+  left: 730px;
+  bottom: 37px;
+  font-size: 20px;
 }
