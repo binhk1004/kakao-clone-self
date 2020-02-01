@@ -133,34 +133,30 @@
 }
 
 .chat__write-box {
-  margin: 0 auto;
-  left: 0;
-  right: 0;
   display: flex;
-  align-items: center;
+  position: relative;
+  left: 18%;
+  align-items: initial;
   justify-content: space-between;
   width: 80%;
+  border-radius: 40px;
+  padding: 10px;
 }
 
 .chat__write {
   background-color: white;
 }
 
-/* .write-box-icon-left {
-  position: relative;
-  bottom: 100px
-  left: 10px;
-} */
-
 .write-box-icon-left {
-  position: relative;
-  bottom: 20px;
+  position: absolute;
+  bottom: -181px;
   font-size: 20px;
 }
 
 .write-box-icon-right {
-  position: relative;
-  left: 730px;
-  bottom: 37px;
+  position: absolute;
+  display: flex;
+  left: 93%;
+  bottom: -181px;
   font-size: 20px;
 }
