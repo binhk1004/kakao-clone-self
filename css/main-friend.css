@@ -33,7 +33,9 @@
 }
 
 .friend__number {
-  background-color: red;
+  position: absolute;
+  right: 10px;
+  opacity: 0.6;
 }
 
 .friend__column__best {
