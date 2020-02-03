@@ -66,3 +66,14 @@
 .chat__timestamp {
   opacity: 0.6;
 }
+
+.friend__listening {
+  position: absolute;
+  top: 438px;
+  right: 10px;
+  opacity: 0.6;
+  border: 2px solid #52e084;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
